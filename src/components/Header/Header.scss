@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #171738;
+    height: 100vh;
+
+    nav {
+        height: 100px;
+        margin-top: 23px;
+        width: 90%;
+        display: flex;  
+        align-items: center;
+        justify-content: space-between;
+    
+        ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+
+        li {
+            margin-right: 55px;  
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #FFD9CE;
+        }
+        button {
+            width: 155px;
+            height: 51px;   
+            background: none;
+            border: 2px solid #8EF9F3;
+            border-radius: 20px;
+            color: #8EF9F3;
+
+        &:hover {
+            background: #8EF9F3;
+            color: black;
+        }
+        }
+        }
+    }
+}
